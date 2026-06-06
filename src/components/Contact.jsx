@@ -68,12 +68,12 @@ export default function Contact() {
           <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
         </svg>
       ),
-      href: 'https://facebook.com',
+      href: 'https://www.facebook.com/profile.php?id=61590382713069',
       color: '#1877f2',
     },
     {
       name: 'TikTok',
-      value: '@vizza.tech',
+      value: 'Vizza- Table Booking',
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -89,7 +89,7 @@ export default function Contact() {
           <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
         </svg>
       ),
-      href: 'https://tiktok.com',
+      href: 'https://www.tiktok.com/@vizzatablebooking?_r=1&_t=ZS-96yy0hisG0a',
       color: '#333333',
     },
   ];
@@ -283,18 +283,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* University context */}
-            <div style={{
-              marginTop: '40px',
-              padding: '16px 20px',
-              borderRadius: '12px',
-              background: '#ffffff',
-              border: '1px dashed var(--border)',
-              fontSize: '0.85rem',
-              color: 'var(--text-secondary)',
-            }}>
-              🏫 <strong>Địa điểm trao đổi trực tiếp:</strong> Đại học FPT, Khu công nghệ cao Hòa Lạc, Thạch Thất, Hà Nội.
-            </div>
+            
           </div>
 
         </div>

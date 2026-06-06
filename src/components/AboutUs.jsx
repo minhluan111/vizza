@@ -1,42 +1,42 @@
 import React from 'react';
-import { Award, Users, BookOpen, Heart, Code, Terminal, Palette, ShieldCheck, Cpu, HardDrive } from 'lucide-react';
+import { Award, Users, BookOpen, Heart, Code, Terminal, Palette, ShieldCheck, Cpu, HardDrive, Briefcase, Search, Megaphone } from 'lucide-react';
 
 export default function AboutUs() {
   const members = [
     {
-      name: 'Nguyễn Thế Hùng',
-      role: 'Project Manager / Fullstack Dev',
-      desc: 'Quản lý dự án, điều phối công việc và xây dựng kiến trúc hệ thống cốt lõi cho website của bạn.',
-      icon: <Terminal size={24} style={{ color: 'var(--primary)' }} />,
+      name: 'Võ Ngọc Kim Khánh',
+      role: 'Leader - Tìm kiếm khách hàng',
+      desc: 'Quản lý dự án, điều phối công việc, định hướng chiến lược và chịu trách nhiệm tiếp cận, phát triển tệp khách hàng tiềm năng.',
+      icon: <Briefcase size={24} style={{ color: 'var(--primary)' }} />,
     },
     {
-      name: 'Trần Quốc Bảo',
-      role: 'Lead Frontend Developer',
-      desc: 'Phụ trách lập trình giao diện người dùng tối giản, tương tác mượt mà và tối ưu hóa SEO vượt trội.',
+      name: 'Trần Thị Thanh Ngọc',
+      role: 'Nghiên cứu thị trường',
+      desc: 'Khảo sát nhu cầu thị trường, phân tích đối thủ cạnh tranh và nghiên cứu hành vi người dùng để định hình các tính năng tối ưu.',
+      icon: <Search size={24} style={{ color: 'var(--secondary)' }} />,
+    },
+    {
+      name: 'Vũ Vân Anh',
+      role: 'Marketing',
+      desc: 'Lên kế hoạch quảng bá thương hiệu, xây dựng nội dung truyền thông và phát triển chiến dịch tiếp thị tiếp cận đối tác.',
+      icon: <Megaphone size={24} style={{ color: 'var(--primary)' }} />,
+    },
+    {
+      name: 'Đào Huy Hoàng',
+      role: 'Frontend Developer',
+      desc: 'Phụ trách lập trình giao diện người dùng tối giản, tương tác mượt mà và tối ưu hóa SEO vượt trội cho toàn hệ thống.',
       icon: <Code size={24} style={{ color: 'var(--secondary)' }} />,
     },
     {
-      name: 'Phạm Thùy Linh',
-      role: 'UI/UX Designer',
-      desc: 'Thiết kế bố cục không gian, sắp xếp hình ảnh bàn ghế trực quan mang lại cảm giác thân thiện nhất.',
+      name: 'Quản Minh Luân',
+      role: 'Frontend Developer',
+      desc: 'Thiết kế sơ đồ bàn trực quan, tối ưu trải nghiệm đặt chỗ thực tế và đảm bảo website hoạt động ổn định trên mọi thiết bị.',
       icon: <Palette size={24} style={{ color: 'var(--primary)' }} />,
     },
     {
-      name: 'Lê Minh Tuấn',
+      name: 'Trần Nguyên Minh Thiên',
       role: 'Backend Developer',
-      desc: 'Thiết lập cơ sở dữ liệu sơ đồ bàn, đồng bộ hóa đơn đặt chỗ theo thời gian thực chính xác.',
-      icon: <HardDrive size={24} style={{ color: 'var(--secondary)' }} />,
-    },
-    {
-      name: 'Hoàng Gia Huy',
-      role: 'QA/QC Engineer',
-      desc: 'Kiểm thử toàn diện, đảm bảo website hoạt động ổn định trên mọi kích thước màn hình điện thoại.',
-      icon: <ShieldCheck size={24} style={{ color: 'var(--primary)' }} />,
-    },
-    {
-      name: 'Đỗ Việt Anh',
-      role: 'DevOps / Cloud Engineer',
-      desc: 'Vận hành hạ tầng máy chủ cloud, tối ưu hóa tốc độ tải trang cực nhanh và bảo mật thông tin.',
+      desc: 'Thiết lập cơ sở dữ liệu, đồng bộ hóa hóa đơn đặt chỗ theo thời gian thực và vận hành hạ tầng cloud bảo mật ổn định.',
       icon: <Cpu size={24} style={{ color: 'var(--secondary)' }} />,
     },
   ];

@@ -67,7 +67,7 @@ export default function Navbar() {
           }}>
             V
           </span>
-          <span className="text-gradient">vizza</span>
+          <span className="text-gradient">Vizza</span>
         </a>
 
         {/* Desktop Navigation Links */}
