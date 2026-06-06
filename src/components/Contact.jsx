@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MessageCircle, Send, CheckCircle } from 'lucide-react';
+import { Send, CheckCircle } from 'lucide-react';
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -29,27 +29,6 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    {
-      name: 'Gmail',
-      value: 'vizza.tech.fpt@gmail.com',
-      icon: <Mail size={20} />,
-      href: 'mailto:vizza.tech.fpt@gmail.com',
-      color: '#ea4335',
-    },
-    {
-      name: 'Điện thoại',
-      value: '098 765 4321',
-      icon: <Phone size={20} />,
-      href: 'tel:0987654321',
-      color: '#4caf50',
-    },
-    {
-      name: 'Zalo',
-      value: '098 765 4321 (Vizza Team)',
-      icon: <MessageCircle size={20} />,
-      href: 'https://zalo.me/0987654321',
-      color: '#0068ff',
-    },
     {
       name: 'Facebook',
       value: 'facebook.com/vizza.fpt',
