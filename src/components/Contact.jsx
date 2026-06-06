@@ -31,9 +31,8 @@ export default function Contact() {
   const socialLinks = [
     {
       name: 'Gmail',
-      value: 'Vizza - Table Booking',
+      value: 'ngoctran.12112005@gmail.com',
       icon: <Mail size={20} />,
-      href: 'mailto:ngoctran.12112005@gmail.com',
       color: '#ea4335',
     },
     {
