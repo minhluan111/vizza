@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MessageCircle, Send, CheckCircle } from 'lucide-react';
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -30,8 +30,15 @@ export default function Contact() {
 
   const socialLinks = [
     {
+      name: 'Gmail',
+      value: 'ngoctran.12112005@gmail.com',
+      icon: <Mail size={20} />,
+      href: 'mailto:ngoctran.12112005@gmail.com',
+      color: '#ea4335',
+    },
+    {
       name: 'Facebook',
-      value: 'facebook.com/vizza.fpt',
+      value: 'Vizza - Table Booking',
       icon: (
         <svg
           viewBox="0 0 24 24"
