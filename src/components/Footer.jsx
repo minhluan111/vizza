@@ -89,16 +89,7 @@ export default function Footer() {
           >
             Về Vizza
           </a>
-          <a
-            href="#services"
-            style={{ color: "var(--text-secondary)" }}
-            onMouseEnter={(e) => (e.target.style.color = "var(--text-primary)")}
-            onMouseLeave={(e) =>
-              (e.target.style.color = "var(--text-secondary)")
-            }
-          >
-            Dịch vụ
-          </a>
+
           <a
             href="#pricing"
             style={{ color: "var(--text-secondary)" }}
