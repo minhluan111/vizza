@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import logo from "../assets/logo.png";
 
 export default function Contact() {
   const socialLinks = [
@@ -116,7 +117,7 @@ export default function Contact() {
               Vizza Partner
             </div>
             <img
-              src={"/src/assets/logo.png"}
+              src={logo}
               alt="Vizza logo"
               style={{
                 width: "100%",
