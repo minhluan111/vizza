@@ -1,41 +1,53 @@
 :root {
   /* Fonts */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: "Outfit", system-ui, -apple-system, sans-serif;
 
-  /* Color Palette (Cozy Warm Minimalist Light Theme) */
-  --bg-main: #fcfbf9; /* Cozy almond off-white */
-  --bg-section: #f5f2eb; /* Soft warm oatmeal */
-  --bg-card: #ffffff; /* Clean white card */
-  --bg-card-hover: #ffffff;
-  
-  --primary: #b58257; /* Cozy Latte Brown */
-  --primary-rgb: 181, 130, 87;
-  --primary-hover: #9c6c44;
-  --secondary: #8c9a70; /* Soft Sage Green */
-  --secondary-rgb: 140, 154, 112;
-  --tertiary: #d4a373; /* Warm Sand */
-  
-  --text-primary: #3c3935; /* Warm dark brown-gray */
-  --text-secondary: #706b64; /* Soft grey-brown */
-  --text-muted: #a39e95; /* Dusty beige */
-  
-  --border: #ebdcd0; /* Light terracotta/sand border */
-  --border-focus: #b58257;
-  
-  --shadow-sm: 0 2px 8px rgba(181, 130, 87, 0.04);
-  --shadow-md: 0 10px 24px rgba(181, 130, 87, 0.06);
-  --shadow-lg: 0 20px 40px rgba(181, 130, 87, 0.1);
-  --shadow-glow: 0 0 20px rgba(181, 130, 87, 0.15);
-  --shadow-glow-cyan: 0 0 20px rgba(140, 154, 112, 0.15);
+  /* Color Palette (Matcha Theme) */
+  /* 4 main colors */
+  --bg-main: #f5f1e8; /* Cream Matcha - nền chính */
+  --bg-section: #b7d3a8; /* Matcha Light - nền section phụ */
+  --bg-card: rgba(
+    255,
+    255,
+    255,
+    0.78
+  ); /* card nền (giữ trong suốt nhẹ để hợp nền) */
+  --bg-card-hover: rgba(255, 255, 255, 0.86);
+
+  /* Buttons / accents */
+  --primary: #7fa36a; /* Matcha Green */
+  --primary-rgb: 127, 163, 106;
+  --primary-hover: #6c8e56;
+
+  /* Card / soft backgrounds */
+  --secondary: #b7d3a8; /* Matcha Light */
+  --secondary-rgb: 183, 211, 168;
+
+  /* Extra */
+  --tertiary: #f5f1e8; /* Cream Matcha */
+
+  /* Texts (giữ tone ấm trung tính như hiện tại) */
+  --text-primary: #3c3935;
+  --text-secondary: #706b64;
+  --text-muted: #a39e95;
+
+  --border: rgba(127, 163, 106, 0.22);
+  --border-focus: #7fa36a;
+
+  --shadow-sm: 0 2px 8px rgba(127, 163, 106, 0.08);
+  --shadow-md: 0 10px 24px rgba(127, 163, 106, 0.12);
+  --shadow-lg: 0 20px 40px rgba(127, 163, 106, 0.18);
+  --shadow-glow: 0 0 20px rgba(127, 163, 106, 0.25);
+  --shadow-glow-cyan: 0 0 20px rgba(183, 211, 168, 0.35);
 
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
   --radius-round: 9999px;
-  
+
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  
+
   color-scheme: light;
 }
 
@@ -77,11 +89,16 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
-  color: var(--text-primary);
+  color: #5a7d4d; /* Matcha Dark - heading */
 }
 
 a {
@@ -108,14 +125,16 @@ a {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  background: linear-gradient(135deg, #7fa36a 0%, #b7d3a8 100%);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
 
 .text-gradient-purple {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+  background: linear-gradient(135deg, #b7d3a8 0%, #7fa36a 100%);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -139,7 +158,7 @@ a {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -8px;
   left: 50%;
@@ -250,17 +269,18 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--primary);
-  background: rgba(181, 130, 87, 0.1);
-  border: 1px solid rgba(181, 130, 87, 0.25);
+  color: #5a7d4d;
+  background: rgba(90, 125, 77, 0.12);
+  border: 1px solid rgba(90, 125, 77, 0.25);
+
   border-radius: var(--radius-round);
   margin-bottom: 16px;
 }
 
 .badge-cyan {
   color: var(--secondary);
-  background: rgba(140, 154, 112, 0.1);
-  border: 1px solid rgba(140, 154, 112, 0.25);
+  background: rgba(183, 211, 168, 0.18);
+  border: 1px solid rgba(127, 163, 106, 0.25);
 }
 
 /* Glow Background Elements */
@@ -276,13 +296,15 @@ a {
 }
 
 .glow-orb-primary {
-  background: rgba(181, 130, 87, 0.3);
+  background: rgba(127, 163, 106, 0.32);
+
   top: 10%;
   left: -100px;
 }
 
 .glow-orb-secondary {
-  background: rgba(140, 154, 112, 0.3);
+  background: rgba(183, 211, 168, 0.35);
+
   bottom: 10%;
   right: -100px;
 }
@@ -298,7 +320,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .grid-2, .grid-3 {
+  .grid-2,
+  .grid-3 {
     grid-template-columns: 1fr;
   }
   .section {
