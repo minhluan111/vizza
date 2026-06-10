@@ -35,7 +35,7 @@ export default function Pricing() {
         "Hỗ trợ & sửa lỗi kỹ thuật trong 3 tháng",
         "Hỗ trợ vận hành và sử dụng hệ thống",
         "Tư vấn tối ưu trải nghiệm người dùng cơ bản",
-        "* Các yêu cầu phát triển thêm tính năng mới sẽ được báo giá riêng",
+        "Các yêu cầu phát triển thêm tính năng mới sẽ được báo giá riêng",
       ],
       popular: true,
     },

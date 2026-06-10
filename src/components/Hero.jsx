@@ -41,7 +41,7 @@ export default function Hero() {
               maxWidth: '540px',
               lineHeight: '1.6',
             }}>
-              vizza thiết kế website cao cấp cho nhà hàng và quán cafe. Tích hợp tính năng đặt bàn trực quan qua hình ảnh không gian thực tế, mang lại cảm giác thân thiện, gần gũi và nâng tầm thương hiệu của bạn.
+              VIZZA thiết kế website cao cấp cho nhà hàng và quán cafe. Tích hợp tính năng đặt bàn trực quan qua hình ảnh không gian thực tế, mang lại cảm giác thân thiện, gần gũi và nâng tầm thương hiệu của bạn.
             </p>
 
             <div style={{

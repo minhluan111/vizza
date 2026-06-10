@@ -1,15 +1,11 @@
-import React from "react";
 import {
   Award,
   Users,
   BookOpen,
   Heart,
   Code,
-  Terminal,
   Palette,
-  ShieldCheck,
   Cpu,
-  HardDrive,
   Briefcase,
   Search,
   Megaphone,
@@ -60,9 +56,8 @@ export default function AboutUs() {
       <div className="container">
         {/* Section Header */}
         <div className="section-header">
-          <span className="badge badge-cyan">Chúng tôi là ai?</span>
           <h2 className="section-title">
-            Câu Chuyện Về <span className="text-gradient">vizza</span>
+            Câu Chuyện Về <span className="text-gradient">VIZZA</span>
           </h2>
           <p className="section-subtitle" style={{ marginTop: "10px" }}>
             VIZZA là dự án khởi nghiệp của 6 sinh viên Đại học FPT với mong muốn
@@ -113,14 +108,13 @@ export default function AboutUs() {
                 fontSize: "0.98rem",
               }}
             >
-              Tại Đại học FPT, chúng tôi nhận thấy các quán cafe và nhà hàng tại
-              Việt Nam thường mất nhiều thời gian tư vấn qua điện thoại khi
-              khách muốn chọn bàn gần cửa sổ, bàn yên tĩnh hay bàn ngoài vườn.
-              Cách đặt bàn cũ không giúp khách hình dung rõ ràng không gian thực
-              tế.
+              Chúng tôi nhận thấy các quán cafe và nhà hàng tại Việt Nam thường
+              mất nhiều thời gian tư vấn qua điện thoại khi khách muốn chọn bàn
+              gần cửa sổ, bàn yên tĩnh hay bàn ngoài vườn. Cách đặt bàn cũ không
+              giúp khách hình dung rõ ràng không gian thực tế.
             </p>
             <p style={{ color: "var(--text-secondary)", fontSize: "0.98rem" }}>
-              **vizza** ra đời như một câu trả lời. Chúng tôi mang đến giải pháp
+              VIZZA ra đời như một câu trả lời. Chúng tôi mang đến giải pháp
               thiết kế website tối giản kết hợp công nghệ **Đặt chỗ qua hình ảnh
               không gian thực tế**. Sự gần gũi, ấm cúng trong thiết kế sẽ giúp
               thương hiệu của bạn chạm tới cảm xúc khách hàng ngay từ lần truy

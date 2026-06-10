@@ -78,9 +78,8 @@ export default function Contact() {
       <div className="container" style={{ position: "relative", zIndex: 1 }}>
         {/* Section Header */}
         <div className="section-header">
-          <span className="badge">Liên Hệ Hợp Tác</span>
           <h2 className="section-title">
-            Kết Nối Với <span className="text-gradient">vizza</span>
+            Kết Nối Với <span className="text-gradient">VIZZA</span>
           </h2>
           <p className="section-subtitle" style={{ marginTop: "10px" }}>
             Bạn muốn nâng tầm trải nghiệm đặt bàn cho khách hàng của mình? Hãy
