@@ -64,7 +64,7 @@ export default function Pricing() {
       <div className="container">
         {/* Section Header */}
         <div className="section-header">
-          <span className="badge badge-cyan">Bảng Giá Dịch Vụ</span>
+          <span className="badge badge-cyan"> Dịch Vụ</span>
           <h2 className="section-title">
             Chi Phí Đầu Tư{" "}
             <span className="text-gradient">Hợp Lý & Tiết Kiệm</span>

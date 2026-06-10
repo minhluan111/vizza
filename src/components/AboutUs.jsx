@@ -115,8 +115,8 @@ export default function AboutUs() {
             </p>
             <p style={{ color: "var(--text-secondary)", fontSize: "0.98rem" }}>
               VIZZA ra đời như một câu trả lời. Chúng tôi mang đến giải pháp
-              thiết kế website tối giản kết hợp công nghệ **Đặt chỗ qua hình ảnh
-              không gian thực tế**. Sự gần gũi, ấm cúng trong thiết kế sẽ giúp
+              thiết kế website tối giản kết hợp công nghệ. Đặt chỗ qua hình ảnh
+              không gian thực tế. Sự gần gũi, ấm cúng trong thiết kế sẽ giúp
               thương hiệu của bạn chạm tới cảm xúc khách hàng ngay từ lần truy
               cập đầu tiên.
             </p>

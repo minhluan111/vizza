@@ -100,7 +100,6 @@ export default function Services() {
       <div className="container">
         {/* Section Header */}
         <div className="section-header">
-          <span className="badge">Trải Nghiệm Dịch Vụ</span>
           <h2 className="section-title">
             Chọn Vị Trí Theo{" "}
             <span className="text-gradient">Không Gian Thực Tế</span>
